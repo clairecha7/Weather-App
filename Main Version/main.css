@@ -1,0 +1,49 @@
+*{
+    background-color: lightblue;
+    padding: 0;
+    margin: 9;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 
+}
+
+#weatherInput{
+    width: 20rem;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 2rem;
+    font-size: 25px;
+}
+
+#sbmbtn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 75px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#weatherWarning{
+    color: white;
+    font-size: 0.75rem;
+}
+
+#weatherCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 20rem;
+
+}
